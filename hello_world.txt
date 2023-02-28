@@ -1,0 +1,2 @@
+Revisiting git basics
+Learning mlops, Opencv etc
