@@ -1,0 +1,28 @@
+* {
+    color: purple;
+    background-color: aqua;
+}
+
+div{
+    color: red;
+}
+
+.alert-text {
+    color: brown;
+}
+
+/*Chaining Selectors*/
+.subsection.preview{
+    color: burlywood;
+}
+
+/*Descendant Combinator*/
+.parent p{
+    font-size: 28px;
+}
+
+/* styles.css 
+.ancestor .contents {
+    some declarations 
+  }
+*/
