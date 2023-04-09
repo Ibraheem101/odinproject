@@ -3,8 +3,12 @@
     background-color: aqua;
 }
 
+.webpage.header{
+    text-align: center;
+}
+
 div{
-    color: red;
+    color: rgba(255, 0, 0, 0.3); /*rgba: a for opacity*/
 }
 
 .alert-text {
@@ -19,6 +23,7 @@ div{
 /*Descendant Combinator*/
 .parent p{
     font-size: 28px;
+    color: rgb(127, 0, 0)
 }
 
 /* styles.css 
