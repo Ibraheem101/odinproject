@@ -23,7 +23,7 @@ div{
 /*Descendant Combinator*/
 .parent p{
     font-size: 28px;
-    color: rgb(127, 0, 0)
+    color: rgb(127, 0, 0);
 }
 
 /* styles.css 
@@ -31,3 +31,9 @@ div{
     some declarations 
   }
 */
+
+img{
+    height: auto;
+    width: 500px;
+}
+
