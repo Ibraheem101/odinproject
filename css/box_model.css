@@ -5,4 +5,22 @@ body{
     margin: 0;
     padding: 0;
 }
+.card {
+    background-color: white;
+    width: 300px;
+    height: 70px;
+    padding: 20px;
+    margin: 100px auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px;
 
+}
+.card-title {
+    font-size: 20px;
+    margin-top: 0;
+  }
+  
+  .card-content {
+    font-size: 14px;
+    margin-bottom: 0;
+  }
