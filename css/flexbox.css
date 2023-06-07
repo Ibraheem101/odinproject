@@ -13,3 +13,30 @@ div {
     border: 2px solid red;
 }
 
+.container {
+    display: flex;
+    /* The main axis is by default, set to row */
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 400px;
+    align-items: center;
+}
+
+.home {
+    align-self: flex-end;
+}
+.container > div {
+    flex: 1; 
+    /* Same as width: 33.3333px because we have three elements */
+
+}
+
+/* Let's make only the home flex; We'll have to comment the more specific container > div*/
+.home {
+    flex: 1;
+}
+
+
+/* .home {
+    margin-right: auto;
+} */
