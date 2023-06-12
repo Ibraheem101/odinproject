@@ -13,18 +13,28 @@ div {
     border: 2px solid red;
 }
 
+
+
 .container {
     display: flex;
     /* The main axis is by default, set to row */
     flex-direction: row;
     justify-content: flex-end;
-    height: 400px;
+    /* height: 400px; */
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .home {
     align-self: flex-end;
+    order: 1;
 }
+
+.logout {
+    align-self: flex-end;
+    order: 0;
+}
+
 .container > div {
     flex: 1; 
     /* Same as width: 33.3333px because we have three elements */
